@@ -1,0 +1,124 @@
+.ProdWrap {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  /* align-items: center; */
+  margin: 0 auto;
+
+  width: 70%;
+  background: #fff;
+  margin-top: 100px;
+  box-shadow: 0 0 10px rgb(188 188 188/40%);
+  max-width: 566px;
+  padding: 50px 99px;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.ProdWrap > * {
+  width: 50%;
+}
+
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detailsSection > p {
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.img {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.countWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.countWrapper > h2 {
+  text-align: center;
+}
+
+.biddingSection {
+  display: flex;
+  width: 100%;
+}
+
+.timeWrapper {
+  border: 1px solid #00b362;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 50%;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timeWrapper strong {
+  font-size: 20px;
+}
+
+.soldWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  box-shadow: 0 0 10px rgb(188 188 188/40%);
+}
+
+.userWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+}
+
+.userWrapper > a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .ProdWrap {
+    flex-direction: column;
+    gap: 40px;
+    border: unset;
+    box-shadow: unset;
+  }
+
+  .detailsSection > p {
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .ProdWrap > * {
+    width: 100%;
+  }
+
+  .timeWrapper {
+    margin-top: 20px;
+    padding: 16px;
+  }
+
+  .soldWrapper {
+    width: 100%;
+    padding: 20px;
+  }
+}

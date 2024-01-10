@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cdd1d4;
+  position: relative;
+  border-radius: 8px;
+  width: calc((100% / 3) - 20px);
+  min-height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.wrapper > img {
+  aspect-ratio: 4/3;
+}
+
+.wrapper > div {
+  border-top: solid 1px #cdd1d4;
+  padding: 12px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 8px;
+}
+
+.time span {
+  color: #00b362;
+}
+
+.pName {
+  color: #484848;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pPrice {
+  color: #154f9c;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+}

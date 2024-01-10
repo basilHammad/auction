@@ -1,0 +1,83 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0 auto;
+
+  width: 70%;
+  background: #fff;
+  margin-top: 100px;
+  box-shadow: 0 0 10px rgb(188 188 188/40%);
+  max-width: 566px;
+  padding: 50px 99px;
+}
+
+.wrapper > h1 {
+  margin-bottom: 16px;
+}
+
+.wrapper input,
+.wrapper textarea {
+  margin-bottom: 16px;
+}
+
+.wrapper input.error {
+  margin-bottom: 0;
+  border: 1px solid var(--text-red);
+}
+
+.wrapper p {
+  color: var(--text-red);
+  font-size: 14px;
+  margin: 8px 0 16px;
+}
+
+.wrapper label {
+  margin-bottom: 8px;
+  display: block;
+}
+
+.submit {
+  margin-top: 24px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.row > div {
+  width: 100%;
+}
+
+.addPWrap {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.calender {
+  padding: 0 !important;
+  gap: 0 !important;
+  margin-bottom: 16px;
+}
+
+p.user {
+  text-align: center;
+  margin-top: 16px;
+  color: #000000;
+}
+
+p.user > a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 50px 20px;
+    width: 100%;
+    box-shadow: unset;
+  }
+}

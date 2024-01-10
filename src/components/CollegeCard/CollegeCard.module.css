@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cdd1d4;
+  position: relative;
+  border-radius: 8px;
+  width: calc((100% / 3) - 20px);
+  min-height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.wrapper > img {
+  aspect-ratio: 4/3;
+}
+
+.wrapper > div {
+  border-top: solid 1px #cdd1d4;
+  padding: 12px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+}

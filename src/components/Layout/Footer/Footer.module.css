@@ -1,0 +1,53 @@
+.wrapper {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.socialmedia,
+.contactinfo {
+  flex: 1 1 50%;
+  margin-bottom: 20px;
+}
+
+.socialmedia {
+  text-align: left;
+}
+
+.contactinfo {
+  text-align: right;
+}
+
+.socialmedia h3,
+.contactinfo h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.socialmedia ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socialmedia ul li {
+  margin-bottom: 8px;
+}
+
+.socialmedia ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialmedia ul li a:hover {
+  text-decoration: underline;
+}
+
+.contactinfo p {
+  font-size: 1.1em;
+  margin: 0;
+}
